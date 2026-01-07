@@ -1,0 +1,6 @@
+{
+  "status": "healthy",
+  "service": "blackroad-metaverse",
+  "version": "1.0.0",
+  "timestamp": "{{TIMESTAMP}}"
+}
