@@ -433,7 +433,7 @@ export class DialogueManager {
         if (this.currentNode.type === NODE_TYPES.SAY && this.currentNode.next) {
             // Return current, but prepare next
             setTimeout(() => {
-                if (this.currentNode.next === 'end') {
+                if (this.currentNode && this.currentNode.next === 'end') {
                     this.endConversation();
                 }
             }, 100);
